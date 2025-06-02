@@ -6,7 +6,7 @@ function subtrair(a, b) {
     return a - b
 }
 function multiplicar(a, b) {
-    return a . b
+    return a * b
 }
 function dividir(a, b) {
     return a / b
@@ -21,7 +21,7 @@ const divisao =  dividir(2,3)
 
 
 // Mostra o conteudo constante.
-console.log('Soma: ${soma}')
-console.log('Subtraçao: ${subtracao}')
-console.log('Multiplicaçao: ${multiplicacao}')
-console.log('Divisao: ${divisao}')
+console.log(`Soma: ${soma}`)
+console.log(`Subtraçao: ${subtracao}`)
+console.log(`Multiplicaçao: ${multiplicacao}`)
+console.log(`Divisao: ${divisao}`)
